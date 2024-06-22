@@ -1,0 +1,890 @@
+Time: 9
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+1          10              waiting         input file      1               5               4               8              
+
+Contents of Ready Queue:
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 45
+Current Devices: 12
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 10
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+2          13              waiting         input file      2               49              2               13             
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 40
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 11
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+2          13              waiting         input file      2               49              2               13             
+3          15              waiting         input file      1               13              5               5              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 7
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 40
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 12
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+2          13              waiting         input file      2               49              2               13             
+3          15              waiting         input file      1               13              5               5              
+4          19              waiting         input file      2               6               1               7              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 6
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 40
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 13
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+3          15              waiting         input file      1               13              5               5              
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 40
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 14
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+3          15              waiting         input file      1               13              5               5              
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 40
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 15
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 3
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 27
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 16
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 2
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 27
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 17
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 1, Arrival Time: 10, Memory: 5, Devices: 4, Burst Time: 8, Remaining Time: 1
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 27
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 18
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+4          19              waiting         input file      2               6               1               7              
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5, Remaining Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 32
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 19
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5, Remaining Time: 4
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 26
+Current Devices: 6
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 20
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+5          21              waiting         input file      2               1               3               4              
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5, Remaining Time: 3
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 26
+Current Devices: 6
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 21
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5, Remaining Time: 2
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 25
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 22
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 3, Arrival Time: 15, Memory: 13, Devices: 5, Burst Time: 5, Remaining Time: 1
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 25
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 23
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 7
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 38
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 24
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 6
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 38
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 25
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 5
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 38
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 26
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 4
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 38
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 27
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+6          28              waiting         input file      1               3               4               8              
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 3
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 38
+Current Devices: 8
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 28
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 2
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 35
+Current Devices: 4
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 29
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 4, Arrival Time: 19, Memory: 6, Devices: 1, Burst Time: 7, Remaining Time: 1
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 35
+Current Devices: 4
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 30
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4, Remaining Time: 4
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 41
+Current Devices: 5
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 31
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4, Remaining Time: 3
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 41
+Current Devices: 5
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 32
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4, Remaining Time: 2
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 41
+Current Devices: 5
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 33
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+7          34              waiting         input file      2               41              5               12             
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 5, Arrival Time: 21, Memory: 1, Devices: 3, Burst Time: 4, Remaining Time: 1
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 41
+Current Devices: 5
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 34
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+8          35              waiting         input file      1               27              3               8              
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 8
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 35
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 7
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 36
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 6
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 37
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 5
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 38
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 4
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 39
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 3
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 40
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 2
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 41
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 6, Arrival Time: 28, Memory: 3, Devices: 4, Burst Time: 8, Remaining Time: 1
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 1
+Current Devices: 3
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 42
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 12
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 43
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 11
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 44
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 10
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 45
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 9
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 46
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 8
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 47
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 7
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 48
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 6
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 49
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 5
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 50
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 4
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 51
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 12, Remaining Time: 3
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 52
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 2, Remaining Time: 2
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 53
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 7, Arrival Time: 34, Memory: 41, Devices: 5, Burst Time: 2, Remaining Time: 1
+Contents of Hold Queue 1:
+Job ID: 8, Arrival Time 35, Memory: 27, Devices: 3, Burst Time: 8
+Contents of Hold Queue 2:
+
+Current Memory: 4
+Current Devices: 7
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 54
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 8
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 55
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 7
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 56
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 6
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 57
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 5
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 58
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 4
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 59
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 3
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 60
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 2
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 61
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Job ID: 8, Arrival Time: 35, Memory: 27, Devices: 3, Burst Time: 8, Remaining Time: 1
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 18
+Current Devices: 9
+Current Time Quantum: 10
+
+----------------------------------------
+
+Time: 62
+Job ID     Arrival Time    State           Location        Priority        Memory Req.     Devices Req.    Burst Time     
+
+Contents of Ready Queue:
+Contents of Hold Queue 1:
+Contents of Hold Queue 2:
+
+Current Memory: 45
+Current Devices: 12
+Current Time Quantum: 10
+
+----------------------------------------
+
+Final Metrics for All Jobs:
+Job ID: 1, Arrival Time: 10, Start Time: 10, Burst Time: 8, Completion Time: 18, Turnaround Time: 8, Waiting Time: 0
+Job ID: 2, Arrival Time: 13, Start Time: -1, Burst Time: 13, Completion Time: -1, Turnaround Time: 0, Waiting Time: 0
+Job ID: 3, Arrival Time: 15, Start Time: 18, Burst Time: 5, Completion Time: 23, Turnaround Time: 8, Waiting Time: 3
+Job ID: 4, Arrival Time: 19, Start Time: 23, Burst Time: 7, Completion Time: 30, Turnaround Time: 11, Waiting Time: 4
+Job ID: 5, Arrival Time: 21, Start Time: 30, Burst Time: 4, Completion Time: 34, Turnaround Time: 13, Waiting Time: 9
+Job ID: 6, Arrival Time: 28, Start Time: 34, Burst Time: 8, Completion Time: 42, Turnaround Time: 14, Waiting Time: 6
+Job ID: 7, Arrival Time: 34, Start Time: 42, Burst Time: 12, Completion Time: 54, Turnaround Time: 20, Waiting Time: 8
+Job ID: 8, Arrival Time: 35, Start Time: 54, Burst Time: 8, Completion Time: 62, Turnaround Time: 27, Waiting Time: 19
+
+Average Turnaround Time: 101.0
+Average Waiting Time: 49.0
